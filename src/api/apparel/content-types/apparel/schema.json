@@ -1,0 +1,46 @@
+{
+  "kind": "collectionType",
+  "collectionName": "apparels",
+  "info": {
+    "singularName": "apparel",
+    "pluralName": "apparels",
+    "displayName": "apparel",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "numberOfVarients": {
+      "type": "integer"
+    },
+    "varient1": {
+      "type": "json"
+    },
+    "varient2": {
+      "type": "json"
+    },
+    "whiteModelSrc": {
+      "type": "string"
+    },
+    "no_of_apparels_seleted": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::no-of-apparels-seleted.no-of-apparels-seleted"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}

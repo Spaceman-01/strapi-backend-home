@@ -1,0 +1,19 @@
+{
+  "kind": "collectionType",
+  "collectionName": "no_of_apparels_seleteds",
+  "info": {
+    "singularName": "no-of-apparels-seleted",
+    "pluralName": "no-of-apparels-seleteds",
+    "displayName": "noOfApparelsSeleted"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "no": {
+      "type": "integer",
+      "required": true
+    }
+  }
+}
